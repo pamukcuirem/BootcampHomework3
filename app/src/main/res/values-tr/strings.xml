@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Meditastation</string>
+    <string name="daily_meditation">Hadi günlük meditasyon yapalım!</string>
+    <string name="daily_meditation_picture">Günlük Meditasyon Resmi</string>
+    <string name="explore_moods">Modlara Baktın Mı</string>
+    <string name="suggestion">Öneri</string>
+    <string name="calm">Sakin</string>
+    <string name="sleepy">Uykulu</string>
+    <string name="nature">Tabiat</string>
+    <string name="explore">Göz At</string>
+    <string name="areYouExcited">Heyecanlı Mısın?</string>
+    <string name="stressfulRight">Stresli Misin?</string>
+
+
+</resources>

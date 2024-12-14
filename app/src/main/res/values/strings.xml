@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Meditastation</string>
+    <string name="daily_meditation">Let\'s do the daily meditation!</string>
+    <string name="daily_meditation_picture">Daily Meditation Picture</string>
+    <string name="explore_moods">Explore Moods</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="calm">Calm</string>
+    <string name="sleepy">Sleepy</string>
+    <string name="nature">Nature</string>
+    <string name="explore">Explore</string>
+    <string name="areYouExcited">Are you excited?</string>
+    <string name="stressfulRight">Stressful, right?</string>
+</resources>
