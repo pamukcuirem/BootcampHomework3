@@ -153,8 +153,8 @@ fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
                 ),
                 shape = androidx.compose.foundation.shape.RoundedCornerShape(10.dp),
                 modifier = Modifier
-                    .align(Alignment.End) // Aligns the button to the right
-                    .padding(end = 16.dp) // Adds padding from the right edge
+                    .align(Alignment.End)
+                    .padding(end = 16.dp)
             ) {
                 Text(
                     stringResource(R.string.explore),
