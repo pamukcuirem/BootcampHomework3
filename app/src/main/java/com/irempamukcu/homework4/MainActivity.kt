@@ -44,6 +44,10 @@ import com.irempamukcu.homework4.ui.theme.TextColor2Dark
 import com.irempamukcu.homework4.ui.theme.delius
 import com.irempamukcu.homework4.ui.theme.indie
 
+
+//İrem Pamukcu - Android Bootcamp Homework3
+//Project name is typed wrong, this project is homework 3
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,7 +60,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
+//Main Design
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
@@ -65,6 +69,7 @@ fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
     val screenHeight = configuration.screenHeightDp
     val screenWidth = configuration.screenWidthDp
 
+    //Scaffold for top bar
     Scaffold (topBar = {
         CenterAlignedTopAppBar(
             title = {
@@ -85,7 +90,7 @@ fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
             verticalArrangement = Arrangement.SpaceEvenly,
             horizontalAlignment = Alignment.Start) {
 
-            Text(stringResource(R.string.daily_meditation),
+            Text(stringResource(R.string.daily_meditation), //Daily Meditation Recommendation Text and Image
                 color = if(darkTheme) TextColor1Dark else TextColor1,
                 fontFamily = delius,
                 fontSize = (screenWidth/13).sp,
@@ -102,7 +107,7 @@ fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
 
                 )
 
-            Text(stringResource(R.string.explore_moods),
+            Text(stringResource(R.string.explore_moods), //Explore Moods Title
                 color = if(darkTheme) TextColor1Dark else TextColor1,
                 fontFamily = delius,
                 fontSize = (screenWidth/13).sp,
@@ -171,6 +176,8 @@ fun MainPage(darkTheme: Boolean = isSystemInDarkTheme()){
     }
 }
 
+
+//Picture Content Chip
 @Composable
 fun ReusableImageBox(
     modifier: Modifier = Modifier,
@@ -208,6 +215,7 @@ fun ReusableImageBox(
 }
 
 
+//Moods Chip
 @Composable
 fun Moods(text: String, darkTheme: Boolean = isSystemInDarkTheme()){
 
